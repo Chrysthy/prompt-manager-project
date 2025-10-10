@@ -12,3 +12,10 @@
   width: 100vw;
 }
 
+.main {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 62px 124px;
+  gap: 32px;
+}
