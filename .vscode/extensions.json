@@ -1,8 +1,10 @@
 {
     "recommendations": [
-        "oderwat.indent-rainbow",
-        "leodevbro.blockman",
-        "coenraads.bracket-pair-colorizer-2",
-        "vincaslt.highlight-matching-tag"
+        "rocketseat.theme-omni",
+        "naumovs.color-highlight",
+        "ritwickdey.LiveServer",
+        "esbenp.prettier-vscode",
+        "miguelsolorio.symbols",
+        "formulahendry.auto-rename-tag"
     ]
 }
