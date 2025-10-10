@@ -8,7 +8,9 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+    rel="stylesheet">
 
   <link rel="stylesheet" href="style.css">
 
@@ -18,13 +20,55 @@
 
   <div class="app">
 
-    <aside class="sidebar">
-      
-    </aside>
+    <aside class="sidebar"></aside>
 
-    <main class="main"></main>
+    <main class="main">
 
+      <header class="main-header">
 
+        <button id="btn-copy" class="btn-outline btn">
+
+          <img src="assets/copy.svg" alt="Copiar" class="icon" />
+
+          <span>Copy</span>
+
+        </button>
+
+        <button id="btn-save" class="btn-primary btn w-150">Save</button>
+
+      </header>
+
+      <div data-placeholder="Título do prompt" class="editable-wrapper" id="title-wrapper">
+
+        <h1 id="prompt-title" class="prompt-title" contenteditable="true">
+          ⚡ Weekly To-Do Planning
+        </h1>
+
+      </div>
+
+      <div data-placeholder="Conteúdo do prompt ..." class="editable-wrapper" id="content-wrapper">
+        <div id="prompt-content" class="prompt-content" contenteditable="true">
+
+          Help me organize my week in a balanced way.
+          
+          <br />
+
+          Distribute my professional and personal tasks into realistic time blocks.
+          
+          <br />
+
+          Suggest times for deep focus and moments for strategic breaks.
+          
+          <br />
+          
+          Include prioritization tips. At the end, provide the plan
+          in a daily checklist format for easy tracking.
+
+        </div>
+
+      </div>
+
+    </main>
 
   </div>
 
