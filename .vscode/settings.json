@@ -9,7 +9,7 @@
   "prettier.semi": false,
 
   // EDITOR
-  "editor.fontSize": 16,
+  "editor.fontSize": 15,
   "editor.lineHeight": 1.6,
   "editor.tabSize": 2,
   "editor.minimap.enabled": false,
@@ -24,15 +24,4 @@
   "workbench.layoutControl.enabled": false,
   "editor.inlineSuggest.suppressSuggestions": true,
 
-  // LINHAS COLORIDAS DE BLOCO / FUNÇÃO
-  "editor.guides.bracketPairs": true,
-  "editor.bracketPairColorization.enabled": true,
-  "editor.guides.bracketPairsHorizontal": true,
-  "editor.guides.highlightActiveBracketPair": true,
-
-  // CORES PERSONALIZADAS DAS LINHAS
-  "workbench.colorCustomizations": {
-    "editorIndentGuide.activeBackground": "#A370F7",
-    "editorIndentGuide.background": "#5A5A5A"
-  }
 }
