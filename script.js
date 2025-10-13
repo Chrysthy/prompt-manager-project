@@ -1,3 +1,12 @@
+// Chave para identificar os dados salvos pela nossa aplicação no navegador.
+const STORAGE_KEY = "prompts_storage"
+
+// Estado carregar os prompts salvos e exibir.
+const state = {
+  prompts: [],
+  selectedId: null,
+}
+
 // Seletores dos elementos HTML por ID
 const elements = {
   promptTitle: document.getElementById("prompt-title"),
@@ -7,6 +16,8 @@ const elements = {
   btnOpen: document.getElementById("btn-open"),
   btnCollapse: document.getElementById("btn-collapse"),
   sidebar: document.querySelector(".sidebar"),
+  btnSave: document.getElementById("btn-save"),
+  btnDelete: document.getElementById("btn-delete"),
 }
 
 // Atualiza o estado do wrapper conforme o conteúdo do elemento
@@ -42,6 +53,23 @@ function attachAllEditableHandlers() {
     updateEditableWrapperState(elements.promptContent, elements.contentWrapper)
   })
 }
+
+function save() {
+  const title = elements.promptTitle.textContent.trim()
+  const content = elements.promptContent.innerHTML.trim()
+  const hasContent = elements.promptContent.textContent.trim()
+
+  if (!title || !hasContent) {
+    alert("Título e conteúdo não podem estar vazios.")
+    return
+  }
+
+
+}
+
+//Evento dos botões
+elements.btnSave.addEventListener("click", save)
+
 
 // Inicialização
 function init() {
