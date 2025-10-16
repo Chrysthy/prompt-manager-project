@@ -32,11 +32,15 @@
 
       <header class="sidebar-header">
 
-        <img src="assets/logo.png" alt="Logo" class="logo" />
+        <a href="index.html" class="logo">
+
+          <img src="assets/logo.png" alt="Logo" class="logo" />
+
+        </a>
 
         <button class="icon-button" id="btn-collapse">
 
-          <img src="assets/collapse.svg" alt="Close Menu" class="icon" />
+          <img src="assets/collapse.svg" alt="Fechar Menu" class="icon" />
 
         </button>
 
@@ -46,43 +50,21 @@
 
         <div class="search-container">
 
-          <img src="assets/search.svg" alt="Buscar" class="icon search-icon" />
+          <img src="assets/search.svg" alt="Search" class="icon search-icon" />
 
-          <input type="text" class="search-input" id="search-input" placeholder="Buscar por título" />
+          <input type="text" class="search-input" id="search-input" placeholder="Search by title" />
 
           <button class="btn-primary btn btn-full" id="btn-new">
-            Novo prompt
+            New prompt
           </button>
 
         </div>
 
+        <ul class="prompt-list" id="prompt-list"></ul>
+
       </div>
 
-      <ul class="prompt-list" id="prompt-list">
-        <li class="prompt-item">
-          <div class="prompt-item-info">
-            <span class="prompt-item-title">Título do Prompt</span>
-            <span class="prompt-item-description">Descrição breve do prompt para visualização rápida.</span>
-          </div>
-          <button class="btn-icon" title="Remover">
-            <img src="assets/remove.svg" alt="Remover" class="icon icon-trash" />
-          </button>
-        </li>
-        
-        <li class="prompt-item">
-          <div class="prompt-item-info">
-            <span class="prompt-item-title">Título do Prompt</span>
-            <span class="prompt-item-description">Descrição breve do prompt para visualização rápida.</span>
-          </div>
-          <button class="btn-icon" title="Remover">
-            <img src="assets/remove.svg" alt="Remover" class="icon icon-trash" />
-          </button>
-        </li>
-      </ul>
-
     </aside>
-
-
 
     <main class="main">
 
@@ -102,32 +84,13 @@
 
       <div data-placeholder="Prompt Title" class="editable-wrapper" id="title-wrapper">
 
-        <h1 id="prompt-title" class="prompt-title" contenteditable="true">
-          🗒️ Weekly To-Do Planning
-        </h1>
+        <h1 id="prompt-title" class="prompt-title" contenteditable="true"></h1>
 
       </div>
 
-      <div data-placeholder="Prompt Content..." class="editable-wrapper" id="content-wrapper">
+      <div data-placeholder="Prompt Content" class="editable-wrapper" id="content-wrapper">
 
-        <div id="prompt-content" class="prompt-content" contenteditable="true">
-
-          Help me organize my week in a balanced way.
-
-          <br />
-
-          Distribute my professional and personal tasks into realistic time blocks.
-
-          <br />
-
-          Suggest times for deep focus and moments for strategic breaks.
-
-          <br />
-
-          Include prioritization tips. At the end, provide the plan
-          in a daily checklist format for easy tracking.
-
-        </div>
+        <div id="prompt-content" class="prompt-content" contenteditable="true"></div>
 
       </div>
 
