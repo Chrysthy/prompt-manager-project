@@ -63,7 +63,7 @@ function save() {
   const hasContent = elements.promptContent.textContent.trim()
 
   if (!title || !hasContent) {
-    alert("Título e conteúdo não podem estar vazios.")
+    alert("Title and content cannot be empty.")
     return
   }
 
@@ -89,14 +89,14 @@ function save() {
 
   renderList(elements.search.value)
   persist()
-  alert("Prompt salvo com sucesso!")
+  alert("Prompt saved successfully!")
 }
 
 function persist() {
   try {
     localStorage.setItem(STORAGE_KEY, JSON.stringify(state.prompts))
   } catch (error) {
-    console.log("Erro ao salvar no localStorage:", error)
+    console.log("Error saving to localStorage:", error)
   }
 }
 
@@ -106,7 +106,7 @@ function load() {
     state.prompts = storage ? JSON.parse(storage) : []
     state.selectedId = null
   } catch (error) {
-    console.log("Erro ao carregar do localStorage:", error)
+    console.log("Error saving to localStorage:", error)
   }
 }
 
@@ -120,8 +120,8 @@ function createPromptItem(prompt) {
           <span class="prompt-item-description">${tmp.textContent}</span>
         </div>
 
-      <button class="btn-icon" title="Remover" data-action="remove">
-        <img src="assets/remove.svg" alt="Remover" class="icon icon-trash" />
+      <button class="btn-icon" title="Remove" data-action="remove">
+        <img src="assets/remove.svg" alt="Remove" class="icon icon-trash" />
       </button>
     </li>
   `
@@ -151,15 +151,15 @@ function copySelected() {
     const content = elements.promptContent
 
     if (!navigator.clipboard) {
-      console.error("Clipboard API não suportada neste ambiente.")
+      console.error("Clipboard API not supported in this environment.")
       return
     }
 
     navigator.clipboard.writeText(content.innerText)
 
-    alert("Conteúdo copiado para a área de transferência!")
+    alert("Content copied to clipboard!")
   } catch (error) {
-    console.log("Erro ao copiar para a área de transferência:", error)
+    console.log("Error copying to clipboard:", error)
   }
 }
 
