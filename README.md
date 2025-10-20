@@ -33,3 +33,9 @@
 - Git and GitHub
 
 <br>
+
+## ✨ Features
+
+* Save, copy and delete your prompts
+
+<br>
