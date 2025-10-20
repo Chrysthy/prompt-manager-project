@@ -22,3 +22,14 @@
 <img src=".github/gif-do-projeto.gif" alt="gif do projeto">
 
 <br>
+
+## 🛠 Technologies
+
+- HTML5  
+- CSS3  
+- JavaScript (Vanilla)
+- MCP
+- Figma 
+- Git and GitHub
+
+<br>
