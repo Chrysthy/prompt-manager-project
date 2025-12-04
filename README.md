@@ -29,7 +29,8 @@
 - CSS3  
 - JavaScript (Vanilla)
 - MCP
-- Figma 
+- Figma
+- Saving with LocalStorage
 - Git and GitHub
 
 <br>
