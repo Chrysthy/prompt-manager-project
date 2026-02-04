@@ -3,6 +3,7 @@
 <p align="center">Minimalist dark-themed app for creating, saving, and managing custom prompts efficiently.</p>
 
 <p align="center">  
+  <a href="#-live-demo">Live Demo</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-screenshots">Screenshots</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-features">Features</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -16,6 +17,23 @@
 </p>
 
 <br>
+
+<br>
+
+## 🌐 Live Demo
+
+<p align="center">
+  <a href="https://chrysthy.github.io/prompt-manager-project/index.html">
+    <img src="https://img.shields.io/badge/Live%20Demo-Open-success?labelColor=black" />
+  </a>
+</p>
+
+<p align="center">
+  <sub>Tip: Use right-click → “Open in new tab”.</sub>
+</p>
+
+<br>
+
 
 ## 📸 Screenshots
 
