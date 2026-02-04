@@ -18,8 +18,6 @@
 
 <br>
 
-<br>
-
 ## 🌐 Live Demo
 
 <p align="center">
